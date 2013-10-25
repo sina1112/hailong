@@ -1,0 +1,20 @@
+﻿2013-09-05 22:42:39: cacheName:1124_2013-9-6_2013-10-25 Message:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+2013-09-05 22:42:39: System.Exception: cacheName:1124_2013-9-6_2013-10-25 Message:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+   在 LongWangApplication.Ashx.QunarHandler.GetPricesByCache() 位置 E:\开发工具\HaiLongProjects\Projects\LongWangApplication\LongWangApplication\Ashx\QunarHandler.ashx.cs:行号 129
+   在 LongWangApplication.Ashx.QunarHandler.ProcessRequest(HttpContext context) 位置 E:\开发工具\HaiLongProjects\Projects\LongWangApplication\LongWangApplication\Ashx\QunarHandler.ashx.cs:行号 43
+2013-09-05 22:43:22: cacheName:1124_2013-9-6_2013-10-25 Message:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+2013-09-05 22:43:22: System.Exception: cacheName:1124_2013-9-6_2013-10-25 Message:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+   在 LongWangApplication.Ashx.QunarHandler.GetPricesByCache() 位置 E:\开发工具\HaiLongProjects\Projects\LongWangApplication\LongWangApplication\Ashx\QunarHandler.ashx.cs:行号 129
+   在 LongWangApplication.Ashx.QunarHandler.ProcessRequest(HttpContext context) 位置 E:\开发工具\HaiLongProjects\Projects\LongWangApplication\LongWangApplication\Ashx\QunarHandler.ashx.cs:行号 43
+2013-09-05 22:45:38: cacheName:1124_2013-9-6_2013-10-25 Message:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+2013-09-05 22:45:38: System.Exception: cacheName:1124_2013-9-6_2013-10-25 Message:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+   在 LongWangApplication.Ashx.QunarHandler.GetPricesByCache() 位置 E:\开发工具\HaiLongProjects\Projects\LongWangApplication\LongWangApplication\Ashx\QunarHandler.ashx.cs:行号 129
+   在 LongWangApplication.Ashx.QunarHandler.ProcessRequest(HttpContext context) 位置 E:\开发工具\HaiLongProjects\Projects\LongWangApplication\LongWangApplication\Ashx\QunarHandler.ashx.cs:行号 43
+2013-09-05 22:46:53: cacheName:1124_2013-9-6_2013-10-25 Message:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+2013-09-05 22:47:00: System.Exception: cacheName:1124_2013-9-6_2013-10-25 Message:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+   在 LongWangApplication.Ashx.QunarHandler.GetPricesByCache() 位置 E:\开发工具\HaiLongProjects\Projects\LongWangApplication\LongWangApplication\Ashx\QunarHandler.ashx.cs:行号 129
+   在 LongWangApplication.Ashx.QunarHandler.ProcessRequest(HttpContext context) 位置 E:\开发工具\HaiLongProjects\Projects\LongWangApplication\LongWangApplication\Ashx\QunarHandler.ashx.cs:行号 43
+2013-09-05 22:47:46: cacheName:1124_2013-9-6_2013-10-25 Message:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+2013-09-05 22:47:46: System.Exception: cacheName:1124_2013-9-6_2013-10-25 Message:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+   在 LongWangApplication.Ashx.QunarHandler.GetPricesByCache() 位置 E:\开发工具\HaiLongProjects\Projects\LongWangApplication\LongWangApplication\Ashx\QunarHandler.ashx.cs:行号 129
+   在 LongWangApplication.Ashx.QunarHandler.ProcessRequest(HttpContext context) 位置 E:\开发工具\HaiLongProjects\Projects\LongWangApplication\LongWangApplication\Ashx\QunarHandler.ashx.cs:行号 43

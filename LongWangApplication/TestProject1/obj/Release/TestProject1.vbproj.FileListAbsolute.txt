@@ -1,0 +1,8 @@
+F:\Projects\LongWangApplication\TestProject1\bin\Release\WebTest1.webtest
+F:\Projects\LongWangApplication\TestProject1\bin\Release\TestProject1.dll
+F:\Projects\LongWangApplication\TestProject1\bin\Release\TestProject1.pdb
+F:\Projects\LongWangApplication\TestProject1\bin\Release\TestProject1.xml
+F:\Projects\LongWangApplication\TestProject1\obj\Release\ResolveAssemblyReference.cache
+F:\Projects\LongWangApplication\TestProject1\obj\Release\TestProject1.dll
+F:\Projects\LongWangApplication\TestProject1\obj\Release\TestProject1.xml
+F:\Projects\LongWangApplication\TestProject1\obj\Release\TestProject1.pdb

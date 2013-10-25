@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{142354CC-0018-445B-898C-6EE8907B3073}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Com.HaiLong.Lib</RootNamespace>
+    <AssemblyName>Com.HaiLong.Lib</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.DirectoryServices.Protocols" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\ConfigHelper.cs" />
+    <Compile Include="Common\DataCache.cs" />
+    <Compile Include="Common\DataQuery\OrderInfo.cs" />
+    <Compile Include="Common\DataQuery\OrderItem.cs" />
+    <Compile Include="Common\DataQuery\OrderLogic.cs" />
+    <Compile Include="Common\DataQuery\PageHelper.cs" />
+    <Compile Include="Common\DataQuery\PageInfo.cs" />
+    <Compile Include="Common\DataQuery\Query.cs" />
+    <Compile Include="Common\DataQuery\QueryParseException.cs" />
+    <Compile Include="Common\DEncrypt\DEncrypt.cs" />
+    <Compile Include="Common\DEncrypt\DESEncrypt.cs" />
+    <Compile Include="Common\DEncrypt\HashEncode.cs" />
+    <Compile Include="Common\DEncrypt\MD5Encrypt.cs" />
+    <Compile Include="Common\DEncrypt\RSACryption.cs" />
+    <Compile Include="Common\HttpWebResponseUtility.cs" />
+    <Compile Include="Common\LogManager.cs" />
+    <Compile Include="Common\PageValidate.cs" />
+    <Compile Include="Common\StringPlus.cs" />
+    <Compile Include="Common\TimeParser.cs" />
+    <Compile Include="Common\WcfClient.cs" />
+    <Compile Include="Common\zTree\zTreeConvert.cs" />
+    <Compile Include="Common\zTree\zTreeNode.cs" />
+    <Compile Include="DBUtility\CommandInfo.cs" />
+    <Compile Include="DBUtility\DbHelperOleDb.cs" />
+    <Compile Include="DBUtility\DbHelperOra.cs" />
+    <Compile Include="DBUtility\DbHelperSQL.cs" />
+    <Compile Include="DBUtility\DbHelperSQLP.cs" />
+    <Compile Include="DBUtility\DESEncrypt.cs" />
+    <Compile Include="DBUtility\OracleHelper.cs" />
+    <Compile Include="DBUtility\PubConstant.cs" />
+    <Compile Include="DBUtility\SQLHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Common\XmlHelper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Common\mssccprj.scc" />
+    <None Include="DBUtility\mssccprj.scc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Utils\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

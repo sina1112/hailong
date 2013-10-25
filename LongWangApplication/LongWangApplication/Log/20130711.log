@@ -1,0 +1,4 @@
+﻿2013-07-11 19:16:23: price:3104_2013/7/11_2013/8/31
+2013-07-11 19:16:23: System.Exception: price:3104_2013/7/11_2013/8/31
+   在 LongWangApplication.Ashx.QunarHandler.GetPricesByCache() 位置 D:\工作\HaiLongProjects\Projects\LongWangApplication\LongWangApplication\Ashx\QunarHandler.ashx.cs:行号 128
+   在 LongWangApplication.Ashx.QunarHandler.ProcessRequest(HttpContext context) 位置 D:\工作\HaiLongProjects\Projects\LongWangApplication\LongWangApplication\Ashx\QunarHandler.ashx.cs:行号 42

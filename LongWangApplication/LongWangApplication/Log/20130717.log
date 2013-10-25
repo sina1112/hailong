@@ -1,0 +1,12 @@
+﻿2013-07-17 19:54:36: cacheName:5782_2013/7/17_2013/7/21 Message:未将对象引用设置到对象的实例。
+2013-07-17 19:54:36: System.Exception: cacheName:5782_2013/7/17_2013/7/21 Message:未将对象引用设置到对象的实例。
+   在 LongWangApplication.Ashx.QunarHandler.GetPricesByCache() 位置 D:\工作\HaiLongProjects\Projects\LongWangApplication\LongWangApplication\Ashx\QunarHandler.ashx.cs:行号 129
+   在 LongWangApplication.Ashx.QunarHandler.ProcessRequest(HttpContext context) 位置 D:\工作\HaiLongProjects\Projects\LongWangApplication\LongWangApplication\Ashx\QunarHandler.ashx.cs:行号 43
+2013-07-17 19:56:28: cacheName:5782_2013/7/17_2013/7/21 Message:未将对象引用设置到对象的实例。
+2013-07-17 19:56:28: System.Exception: cacheName:5782_2013/7/17_2013/7/21 Message:未将对象引用设置到对象的实例。
+   在 LongWangApplication.Ashx.QunarHandler.GetPricesByCache() 位置 D:\工作\HaiLongProjects\Projects\LongWangApplication\LongWangApplication\Ashx\QunarHandler.ashx.cs:行号 129
+   在 LongWangApplication.Ashx.QunarHandler.ProcessRequest(HttpContext context) 位置 D:\工作\HaiLongProjects\Projects\LongWangApplication\LongWangApplication\Ashx\QunarHandler.ashx.cs:行号 43
+2013-07-17 19:58:46: cacheName:5782_2013/7/17_2013/7/21 Message:未将对象引用设置到对象的实例。
+2013-07-17 19:58:46: System.Exception: cacheName:5782_2013/7/17_2013/7/21 Message:未将对象引用设置到对象的实例。
+   在 LongWangApplication.Ashx.QunarHandler.GetPricesByCache() 位置 D:\工作\HaiLongProjects\Projects\LongWangApplication\LongWangApplication\Ashx\QunarHandler.ashx.cs:行号 129
+   在 LongWangApplication.Ashx.QunarHandler.ProcessRequest(HttpContext context) 位置 D:\工作\HaiLongProjects\Projects\LongWangApplication\LongWangApplication\Ashx\QunarHandler.ashx.cs:行号 43

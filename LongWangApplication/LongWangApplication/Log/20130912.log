@@ -1,0 +1,18 @@
+﻿2013-09-12 14:26:01: 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+2013-09-12 14:26:01: System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+   在 Com.HaiLong.Lib.DBUtility.DbHelperSQL.ExecuteReader(String strSQL) 位置 E:\开发工具\HaiLongProjects\Projects\Com.HaiLong.Lib\Com.HaiLong.Lib\DBUtility\DbHelperSQL.cs:行号 533
+   在 Com.HaiLong.Provider.Qunar.Hotel.GetHotels() 位置 E:\开发工具\HaiLongProjects\Projects\LongWangApplication\Com.HaiLong.JieLv\Qunar\Hotel.cs:行号 61
+   在 LongWangApplication.Ashx.QunarHandler.GetChangeHotels() 位置 E:\开发工具\HaiLongProjects\Projects\LongWangApplication\LongWangApplication\Ashx\QunarHandler.ashx.cs:行号 353
+   在 LongWangApplication.Ashx.QunarHandler.ProcessRequest(HttpContext context) 位置 E:\开发工具\HaiLongProjects\Projects\LongWangApplication\LongWangApplication\Ashx\QunarHandler.ashx.cs:行号 46
+2013-09-12 14:26:30: 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+2013-09-12 14:26:30: System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+   在 Com.HaiLong.Lib.DBUtility.DbHelperSQL.ExecuteReader(String strSQL) 位置 E:\开发工具\HaiLongProjects\Projects\Com.HaiLong.Lib\Com.HaiLong.Lib\DBUtility\DbHelperSQL.cs:行号 533
+   在 Com.HaiLong.Provider.Qunar.Hotel.GetHotels() 位置 E:\开发工具\HaiLongProjects\Projects\LongWangApplication\Com.HaiLong.JieLv\Qunar\Hotel.cs:行号 61
+   在 LongWangApplication.Ashx.QunarHandler.GetChangeHotels() 位置 E:\开发工具\HaiLongProjects\Projects\LongWangApplication\LongWangApplication\Ashx\QunarHandler.ashx.cs:行号 353
+   在 LongWangApplication.Ashx.QunarHandler.ProcessRequest(HttpContext context) 位置 E:\开发工具\HaiLongProjects\Projects\LongWangApplication\LongWangApplication\Ashx\QunarHandler.ashx.cs:行号 46
+2013-09-12 14:27:20: 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+2013-09-12 14:27:20: System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+   在 Com.HaiLong.Lib.DBUtility.DbHelperSQL.ExecuteReader(String strSQL) 位置 E:\开发工具\HaiLongProjects\Projects\Com.HaiLong.Lib\Com.HaiLong.Lib\DBUtility\DbHelperSQL.cs:行号 533
+   在 Com.HaiLong.Provider.Qunar.Hotel.GetHotels() 位置 E:\开发工具\HaiLongProjects\Projects\LongWangApplication\Com.HaiLong.JieLv\Qunar\Hotel.cs:行号 61
+   在 LongWangApplication.Ashx.QunarHandler.GetChangeHotels() 位置 E:\开发工具\HaiLongProjects\Projects\LongWangApplication\LongWangApplication\Ashx\QunarHandler.ashx.cs:行号 353
+   在 LongWangApplication.Ashx.QunarHandler.ProcessRequest(HttpContext context) 位置 E:\开发工具\HaiLongProjects\Projects\LongWangApplication\LongWangApplication\Ashx\QunarHandler.ashx.cs:行号 46

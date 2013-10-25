@@ -1,0 +1,12 @@
+﻿2013-07-10 23:22:55: price:5344_2013/8/21_2013/8/27
+2013-07-10 23:22:55: System.Exception: price:5344_2013/8/21_2013/8/27
+   在 LongWangApplication.Ashx.QunarHandler.GetPricesByCache() 位置 D:\工作\HaiLongProjects\Projects\LongWangApplication\LongWangApplication\Ashx\QunarHandler.ashx.cs:行号 128
+   在 LongWangApplication.Ashx.QunarHandler.ProcessRequest(HttpContext context) 位置 D:\工作\HaiLongProjects\Projects\LongWangApplication\LongWangApplication\Ashx\QunarHandler.ashx.cs:行号 42
+2013-07-10 23:23:31: price:5344_2013/8/21_2013/8/27
+2013-07-10 23:23:31: System.Exception: price:5344_2013/8/21_2013/8/27
+   在 LongWangApplication.Ashx.QunarHandler.GetPricesByCache() 位置 D:\工作\HaiLongProjects\Projects\LongWangApplication\LongWangApplication\Ashx\QunarHandler.ashx.cs:行号 128
+   在 LongWangApplication.Ashx.QunarHandler.ProcessRequest(HttpContext context) 位置 D:\工作\HaiLongProjects\Projects\LongWangApplication\LongWangApplication\Ashx\QunarHandler.ashx.cs:行号 42
+2013-07-10 23:33:16: price:5344_2013/8/21_2013/8/27
+2013-07-10 23:33:16: System.Exception: price:5344_2013/8/21_2013/8/27
+   在 LongWangApplication.Ashx.QunarHandler.GetPricesByCache() 位置 D:\工作\HaiLongProjects\Projects\LongWangApplication\LongWangApplication\Ashx\QunarHandler.ashx.cs:行号 128
+   在 LongWangApplication.Ashx.QunarHandler.ProcessRequest(HttpContext context) 位置 D:\工作\HaiLongProjects\Projects\LongWangApplication\LongWangApplication\Ashx\QunarHandler.ashx.cs:行号 42

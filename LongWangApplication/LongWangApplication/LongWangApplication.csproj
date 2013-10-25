@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0E13A4CE-45F9-4EBA-AFD9-074492C188F1}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LongWangApplication</RootNamespace>
+    <AssemblyName>LongWangApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Lib\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Manager\Index.aspx" />
+    <Content Include="Manager\Login.aspx" />
+    <Content Include="Manager\RoomPrice.aspx" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\accordion\bg.jpg" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\accordion\drawer-tools.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\borderlayout\tools.gif" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\borderlayout\trigger_buttons_n.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\borderlayout\trigger_buttons_s.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\borderlayout\trigger_buttons_we.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\buttonbar\button-hover-bg.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\buttonbar\buttonbar-bg.jpg" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\buttonbar\buttonbar-bg.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\buttonbar\formbutton_bg_left.jpg" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\buttonbar\formbutton_bg_right.jpg" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\buttonbar\separtor-bg.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\button\button-focus-bg.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\button\button-hover-bg.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\button\button-mousedown-bg.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\button\button-nomal-bg.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\calendar\calendar-trigger.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\calendar\time_up_down.gif" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\calendar\week_day_bkgd.gif" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\calendar\year_head_bkgd.gif" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\combo\combo-trigger.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\combo\combo_selected.jpg" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\dialog\close.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\dialog\title-bg.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\fileupload\cancel.gif" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\fileupload\cancel.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\fileupload\progressbar.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\grid-group\data-header.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\grid-group\group-header.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\grid-roweditor\dirty.gif" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\grid-roweditor\error.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\grid-roweditor\new.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\grid-rowexpander\grid-row-expand-sprite.gif" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\grid-sort\sort_asc.gif" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\grid-sort\sort_desc.gif" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\grid\bg.gif" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\grid\fhbg.gif" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\grid\grid-icons-ud.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\grid\grid-icons.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\grid\head-bg.gif" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\grid\hl.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\grid\line.gif" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\grid\pager-bg.gif" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\grid\space-bg.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\grid\tool-bg.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\grid\wbg.gif" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\header_bg.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\itemselector\add.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\itemselector\add_hover.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\itemselector\button_bg.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\itemselector\button_bg_disabled.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\itemselector\button_bg_hover.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\itemselector\checkbox1.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\itemselector\checkbox2.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\itemselector\down.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\itemselector\down_disable.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\itemselector\header_bg.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\itemselector\remove.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\itemselector\remove_hover.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\itemselector\up.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\itemselector\up_disable.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\load.gif" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\menu\blank.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\menu\line-sep.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\menu\menu_bg.gif" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\menu\menu_rightarrow.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\messagebox\messagebox-icons.gif" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\messagebox\title-bg.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\messagebox\waiting.gif" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\om-icons-default.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\om-icons-hover.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\panel\close_panel.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\panel\down_panel.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\panel\max_panel.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\panel\min_panel.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\panel\om-panel-header-bg-d.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\panel\om-panel-header-bg-h.jpg" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\panel\om-panel-header-bg-help-d.jpg" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\panel\om-panel-header-bg-help-h.jpg" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\panel\up_panel.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\slider\arrows.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\slider\bullets.gif" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\slider\bullets.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\tabs\om-tabs-bg-a.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\tabs\om-tabs-bg-d.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\tabs\om-tabs-bg-h.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\tabs\om-tabs-closebtn.gif" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\tabs\om-tabs-closebtn.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\tabs\om-tabs-scroll-left.gif" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\tabs\om-tabs-scroll-right.gif" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\tooltip\tip-anchor-sprite.gif" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\tree\checkbox.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\tree\tree-icons.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\tree\tree-loading.gif" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\tree\treeview-default.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\images\ui-toolbar-btn.png" />
+    <Content Include="Resource\Css\operamasks-ui\elegant\om-elegant.css" />
+    <Content Include="Resource\Css\style.css" />
+    <Content Include="Resource\Js\function.js" />
+    <Content Include="Resource\Js\jBox\i18n\jquery.jBox-zh-CN.js" />
+    <Content Include="Resource\Js\jBox\jquery.jBox-2.3.min.js" />
+    <Content Include="Resource\Js\jBox\Skins\Blue\images\jbox-button1.png" />
+    <Content Include="Resource\Js\jBox\Skins\Blue\images\jbox-button2.png" />
+    <Content Include="Resource\Js\jBox\Skins\Blue\images\jbox-close1.gif" />
+    <Content Include="Resource\Js\jBox\Skins\Blue\images\jbox-close2.gif" />
+    <Content Include="Resource\Js\jBox\Skins\Blue\images\jbox-content-loading.gif" />
+    <Content Include="Resource\Js\jBox\Skins\Blue\images\jbox-icons-ie6.gif" />
+    <Content Include="Resource\Js\jBox\Skins\Blue\images\jbox-icons.png" />
+    <Content Include="Resource\Js\jBox\Skins\Blue\images\jbox-loading1.gif" />
+    <Content Include="Resource\Js\jBox\Skins\Blue\images\jbox-loading2.gif" />
+    <Content Include="Resource\Js\jBox\Skins\Blue\images\jbox-loading3.gif" />
+    <Content Include="Resource\Js\jBox\Skins\Blue\images\jbox-title-icon.gif" />
+    <Content Include="Resource\Js\jBox\Skins\Blue\jbox.css" />
+    <Content Include="Resource\Js\jquery-1.7.1.min.js" />
+    <Content Include="Resource\Js\jquery.form.js" />
+    <Content Include="Resource\Js\loadMask\images\loading.gif" />
+    <Content Include="Resource\Js\loadMask\jquery.loadmask.css" />
+    <Content Include="Resource\Js\loadMask\jquery.loadmask.min.js" />
+    <Content Include="Resource\Js\operamasks-ui.min.js" />
+    <Content Include="Resource\Js\validate\jquery.validate.min.js" />
+    <Content Include="Resource\Js\validate\messages_cn.js" />
+    <Content Include="Test.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ashx\BaseAshx.ashx.cs">
+      <DependentUpon>BaseAshx.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ashx\JieLvHandler.ashx.cs">
+      <DependentUpon>JieLvHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ashx\ManagerHandler.ashx.cs">
+      <DependentUpon>ManagerHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\RoomPrice.aspx.cs">
+      <DependentUpon>RoomPrice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager\RoomPrice.aspx.designer.cs">
+      <DependentUpon>RoomPrice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Ashx\QunarHandler.ashx.cs">
+      <DependentUpon>QunarHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Test.aspx.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Test.aspx.designer.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUtility\BasePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Lib\" />
+    <Folder Include="Resource\Images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ashx\JieLvHandler.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Com.HaiLong.Lib\Com.HaiLong.Lib\Com.HaiLong.Lib.csproj">
+      <Project>{142354CC-0018-445B-898C-6EE8907B3073}</Project>
+      <Name>Com.HaiLong.Lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Com.HaiLong.JieLv\Com.HaiLong.Provider.csproj">
+      <Project>{F53EDA6D-CEE5-4586-8002-43D1DDC850CA}</Project>
+      <Name>Com.HaiLong.Provider</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ashx\QunarHandler.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ashx\BaseAshx.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ashx\ManagerHandler.ashx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2974</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongWangApplication", "LongWangApplication\LongWangApplication.csproj", "{0E13A4CE-45F9-4EBA-AFD9-074492C188F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Com.HaiLong.Lib", "..\Com.HaiLong.Lib\Com.HaiLong.Lib\Com.HaiLong.Lib.csproj", "{142354CC-0018-445B-898C-6EE8907B3073}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Com.HaiLong.Provider", "Com.HaiLong.JieLv\Com.HaiLong.Provider.csproj", "{F53EDA6D-CEE5-4586-8002-43D1DDC850CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E13A4CE-45F9-4EBA-AFD9-074492C188F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E13A4CE-45F9-4EBA-AFD9-074492C188F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E13A4CE-45F9-4EBA-AFD9-074492C188F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E13A4CE-45F9-4EBA-AFD9-074492C188F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{142354CC-0018-445B-898C-6EE8907B3073}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{142354CC-0018-445B-898C-6EE8907B3073}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{142354CC-0018-445B-898C-6EE8907B3073}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{142354CC-0018-445B-898C-6EE8907B3073}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F53EDA6D-CEE5-4586-8002-43D1DDC850CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F53EDA6D-CEE5-4586-8002-43D1DDC850CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F53EDA6D-CEE5-4586-8002-43D1DDC850CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F53EDA6D-CEE5-4586-8002-43D1DDC850CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

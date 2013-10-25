@@ -1,0 +1,7 @@
+F:\Projects\LongWangApplication\Com.HaiLong.JieLv\bin\Debug\Com.HaiLong.JieLv.dll
+F:\Projects\LongWangApplication\Com.HaiLong.JieLv\bin\Debug\Com.HaiLong.JieLv.pdb
+F:\Projects\LongWangApplication\Com.HaiLong.JieLv\obj\Debug\ResolveAssemblyReference.cache
+F:\Projects\LongWangApplication\Com.HaiLong.JieLv\obj\Debug\Com.HaiLong.JieLv.dll
+F:\Projects\LongWangApplication\Com.HaiLong.JieLv\obj\Debug\Com.HaiLong.JieLv.pdb
+F:\Projects\LongWangApplication\Com.HaiLong.JieLv\bin\Debug\Com.HaiLong.Lib.dll
+F:\Projects\LongWangApplication\Com.HaiLong.JieLv\bin\Debug\Com.HaiLong.Lib.pdb
